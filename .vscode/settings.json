@@ -1,0 +1,53 @@
+{
+    "java.home": "C:\\DEVPACK\\JavaSE\\jdk-11.0.12",
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "C:\\DEVPACK\\JavaSE\\jdk1.8.0_171",
+      },
+      {
+        "name": "JavaSE-11",
+        "path": "C:\\DEVPACK\\JavaSE\\jdk-11.0.12",
+      }
+    ],
+    "java.help.firstView": "gettingStarted",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "remote.SSH.remotePlatform": {
+        "vm-cent78": "linux",
+        "node1": "linux"
+    },
+    "git.ignoreLegacyWarning": true,
+    "grunt.autoDetect": "on",
+    "remote.SSH.configFile": "C:\\Users\\cheungmine\\.ssh\\config",
+    "git.ignoreWindowsGit27Warning": true,
+
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": false,
+
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "msys64-shell": {
+        "path": [
+          "${env:MSYS64_HOME}\\usr\\bin\\bash.exe"
+        ],
+        "icon": "terminal-bash",
+        "args": [],
+        "env": {
+          "MSYSTEM": "MINGW64",
+          "CONTITLE": "MinGW x64"
+        }
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "msys64-shell"
+}
